@@ -8,7 +8,7 @@
 
 The relation of these terms can be defined as: a = b * q + r
 
-## GCD Problem
+## GCD Definition
 The greatest commom divisor (GCD) of integers a and b is the greatest divisor that divids both a and b without leaving a remainder. 
 
 ## Euclidean Alogrithm
