@@ -15,7 +15,7 @@ The greatest commom divisor (GCD) of integers a and b is the greatest positive d
 ## Euclidean Alogrithm
 The Euclidean algorithm, a Euclid variant algorithm, which efficiently solves the GCD problem with a time complexity O(logN) where N = Max(a, b). The algorithm is based on the principle that GCD(a, b) = GCD(a, a % b).
 
-Proof:
+Proof of validity:
 - Let d be any arbitrary commom divisor of a and b. We can express a = m * d and b = n * d (1).
 - The relation of a and b can be represented as a = q * b + r. Therefore r = a - q * b (2).
 - From (1) and (2), we find that r =  m * d - q * n * d = (m - q * n) * d. Hence d is also a divisor of r.
